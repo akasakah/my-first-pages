@@ -9,6 +9,7 @@
   <h1>ボタンで画像表示テスト</h1>
 
   <button onclick="showImage()">画像を表示</button>
+  <button onclick="hideImage()">画像を非表示</button>
 
   <br><br>
 
@@ -17,6 +18,9 @@
   <script>
     function showImage() {
       document.getElementById("myImage").style.display = "block";
+    }
+    function hideImage() {
+      document.getElementById("myImage").style.display = "none";
     }
   </script>
 
